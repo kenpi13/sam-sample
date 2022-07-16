@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-sample"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-wlam32f9ohug"
+s3_prefix = "sam-sample"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
